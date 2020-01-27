@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>KostkaFinal</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>GY0U85Rdp0VmpcK153U4EejUYjA=1/27/2020 10:54:45 AM1/27/2020 10:54:45 AM</TimeStamp>
+        <ID>
+          <String>218386</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>EZ7CmjyMSWV/nPMTppQAgx1w20Y=1/27/2020 10:57:36 AM1/27/2020 10:55:09 AM</TimeStamp>
+        <ID>
+          <String>218386</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P0vaz8xjWF4Qja2duCslokMovYk=1/27/2020 11:01:20 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>Students</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bAKvgKbUZ8DxCc0ctTRr7FwWeDA=1/27/2020 11:01:20 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>Grades Desc</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>A/AfEJgV1mN5EGbhpfx45Tpx1II=1/27/2020 11:01:20 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>Course Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>93aQwZ9/JSPSXZ6Os6V+a/6DhPg=1/27/2020 11:01:20 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>Semester</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5G+7GO7YxYOI32qEEV08jjT/Gt8=1/27/2020 11:06:00 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>Workload</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fWUQlPVWPa/TdMlZrmUsUbdRmkY=1/27/2020 11:02:04 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>Teachers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>iutDq+OozJvk3imNfJzfCIuIGWg=1/27/2020 11:09:14 AM1/27/2020 10:57:50 AM+zgW3dJEn3KuzMEZh/VeviEwV/4=1/27/2020 10:58:20 AM1/27/2020 10:57:50 AM</TimeStamp>
+        <ID>
+          <String>218386</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>f4vfW/SXGQ6ckSRV9fkHFoatsYQ=1/23/2020 10:17:08 AM1/23/2020 10:17:08 AM</TimeStamp>
+      <ID>
+        <String>KostkaFinal</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-01-27T10:09:16.906667Z</LastDeployed>
+</DeploymentSnapshot>
